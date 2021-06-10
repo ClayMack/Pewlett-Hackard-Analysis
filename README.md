@@ -12,7 +12,7 @@ The HR Department at Pewlett Hackard needed an analysis (such as number of staff
 ## Software
 PostgreSQL pgAdmin
 
-## Results: Provide a bulleted list with four major points from the two analysis deliverables. Use images as support where needed.
+## Results: 
 #### Retiring  by Title Table: 
 ![retiring based on title](https://github.com/ClayMack/Pewlett-Hackard-Analysis/blob/main/retiring_titles.png "retiring based on title")
 
@@ -25,6 +25,8 @@ PostgreSQL pgAdmin
 ![mentorship based on title](https://github.com/ClayMack/Pewlett-Hackard-Analysis/blob/main/mentorship%20eligibility%20by%20title.png "mentorship based on title")
 
 
-## Summary: Based on the analysis Pewlett Hackard is facing over 90,000 vacant positions of the 510,000 employees company wide. Pewlett hackard will face a lose of qualified trained employees because of the low number of employees who are eligible for mentorship to train replacements.
+## Summary: 
+
+Based on the analysis Pewlett Hackard is facing over 90,000 vacant positions of the 510,000 employees company wide. Pewlett hackard will face a lose of qualified trained employees because of the low number of employees who are eligible for mentorship to train replacements.
 
 Additional age based queries can be ran to determine the oldest and youngest departments and prioritize mentorship with the oldest departments. this could minimize the turnover impact.
