@@ -29,6 +29,13 @@ INTO unique_titles
 FROM retirement_titles as rt
 ORDER BY rt.emp_no, rt.to_date DESC;
 
+SELECT COUNT(ut.emp_no),
+ut.title
+INTO retiring_titles
+FROM unique_titles as ut
+GROUP BY title 
+ORDER BY COUNT(title) DESC;
+
 
 SELECT DISTINCT ON (e.emp_no)
     e.emp_no,
